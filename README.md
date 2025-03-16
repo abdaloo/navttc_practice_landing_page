@@ -1,2 +1,2 @@
-# landing_page-TOP
-This is a CSS project named "Landing Page" by The Odin Project.
+# navttc_practice_landing_page
+I made this Landing page site just for practice purpose only.
