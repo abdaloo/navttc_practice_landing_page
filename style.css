@@ -21,7 +21,7 @@ body{
 /* Navigation Bar */
 
 .navbar{
-    background-color: lightslategray;
+    background-color: #3882f6;
     height: 60px;
 }
 
@@ -33,8 +33,8 @@ body{
 }
 
 .navbar .logo{
-    color: bisque;
-    font-size: 24px;
+    color: #1f2937;
+    font-size: 32px;
     font-weight: 900;
 }
 
@@ -48,8 +48,10 @@ body{
 }
 
 .navbar ul li a{
-    color: bisque;
-    font-size: 18px;
+    /* color: #1f2937; */
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: 500;
     text-decoration: none;
 }
 
@@ -214,3 +216,6 @@ h3{
     justify-content: center;
     align-items: center;
 }
+
+/* Adding some more Features */
+
