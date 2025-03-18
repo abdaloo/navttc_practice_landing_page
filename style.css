@@ -257,3 +257,8 @@ button:hover{
 .footer strong a{
     color: #3882f6;
 }
+
+/* Information Heading */
+.Information .title:hover{
+    color: #3882f6;
+}
