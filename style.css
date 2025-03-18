@@ -36,6 +36,7 @@ body{
     color: #1f2937;
     font-size: 32px;
     font-weight: 900;
+    cursor: pointer;
 }
 
 .navbar ul{
@@ -219,3 +220,40 @@ h3{
 
 /* Adding some more Features */
 
+/* Logo Transition */
+.navbar .logo:hover{
+    font-size: 40px;
+    transition: font-size 1s;
+    color: #f9faf8;
+}
+
+/* Navigation Transition */
+.navbar ul li a:hover{
+    font-size: 20px;
+    transition: font-size 0.5s;
+    color: #1f2937;
+}
+
+/* Made Navbar Sticky */
+.navbar{
+    position: sticky;
+    top: 0;
+}
+
+/* Button Hover */
+button:hover{
+    border: 1px solid #e5e7e8;
+    color: #e5e7e8;
+    background-color: #1f2937;
+}
+
+.header .main-text button:hover{
+    border: 1px solid #3882f6;
+    color: #e5e7e8;
+    background-color: #1f2937;
+}
+
+/* Footer text */
+.footer strong a{
+    color: #3882f6;
+}
