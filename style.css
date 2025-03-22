@@ -117,10 +117,26 @@ img{
 }
 
 .image{
-    /* border: 2px solid #3882f6; */
+    border: 2px solid #3882f6;
     width: 150px;
     height: 150px;
-    border-radius: 8px;
+
+    border-radius: 15px;
+}
+
+.info img{
+    object-fit: cover;
+    border-radius: 12px;
+
+}
+
+.info .text{
+    margin-top: 7px;
+    font-weight: bold;
+}
+
+.info .text:hover{
+    color: #3882f6;
 }
 
 .Information{
@@ -147,7 +163,7 @@ img{
 
 /* Quote */
 .quote{
-    background-color: #e5e7eb;
+    background-color: #d2dae0;
     padding: 60px;
 
 }
@@ -162,8 +178,7 @@ img{
 .paragraph{
     font-size: 36px;
     font-style: italic;
-    color: #1f2937;
-    opacity: 0.8;
+    color: #4c535d;
 }
 
 .name{
@@ -188,6 +203,7 @@ img{
     align-items: center;
     border-radius: 6px;
     padding: 32px;
+    gap: 25px;
 }
 
 .call .text{
@@ -258,9 +274,13 @@ button:hover{
     color: #3882f6;
 }
 
+.footer strong a:hover{
+    color: #73a9ff;
+}
+
 /* Information Heading */
 .Information .title:hover{
     color: #3882f6;
 }
 
-/* Make CSS Responsive  */
+
